@@ -1,0 +1,43 @@
+baseURL = 'https://open-nexus.dev/'
+languageCode = 'en-us'
+title = 'Open Nexus'
+theme = "hugo-brewm"
+
+# Enable syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+# Enable Git info
+enableGitInfo = true
+
+# Custom parameters
+[params]
+  description = "Empowering LLMs with collaborative reasoning and advanced extraction capabilities"
+  author = "Gavin Volpe"
+  github = "https://github.com/gavinvolpe/nexus"
+  twitter = "https://twitter.com/nexusframework"
+  customCSS = ["css/custom.css"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Documentation"
+    url = "/docs/"
+    weight = 2
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+  [[menu.main]]
+    name = "Community"
+    url = "/community/"
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true
