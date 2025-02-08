@@ -17,11 +17,6 @@ theme = "hugo-brewm"
     description = "Empowering LLMs with collaborative reasoning"
     copyright = " 2025 Open Nexus"
   
-  [params.author]
-    name = "Gavin Volpe"
-    email = "gavin@open-nexus.dev"
-    github = "gavinvolpe"
-    twitter = "nexusframework"
 
 # Menu configuration
 [menu]
