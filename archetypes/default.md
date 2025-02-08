@@ -1,5 +1,11 @@
 +++
-date = '{{ .Date }}'
+title = "{{ replace .Name "-" " " | title }}"
+date = {{ .Date }}
+description = ""
+author = "{{ .Site.Params.author.name }}"
 draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+tags = []
+categories = []
 +++
+
+# {{ replace .Name "-" " " | title }}
